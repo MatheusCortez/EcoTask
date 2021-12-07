@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_listFragment_to_incluirTarefaFragment"
             app:destination="@id/incluirTarefaFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_fragmentDicas"
+            app:destination="@id/fragmentDicas" />
     </fragment>
     <fragment
         android:id="@+id/incluirTarefaFragment"
@@ -21,6 +24,15 @@
         tools:layout="@layout/fragment_incluir_tarefa" >
         <action
             android:id="@+id/action_incluirTarefaFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDicas"
+        android:name="com.example.ecotask_.FragmentDicas"
+        android:label="fragment_dicas"
+        tools:layout="@layout/fragment_dicas" >
+        <action
+            android:id="@+id/action_fragmentDicas_to_listFragment"
             app:destination="@id/listFragment" />
     </fragment>
 </navigation>

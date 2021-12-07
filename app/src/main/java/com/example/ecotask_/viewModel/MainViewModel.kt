@@ -72,11 +72,7 @@ class MainViewModel @Inject constructor(
             try {
                 val response = repository.addTask(tarefa)
                 if (response.isSuccessful) {
-
                     repository.insertTask(response.body()!!)
-
-                    repository.insertTask(tarefa)
-
                 } else {
                     repository.insertTask(tarefa)
                 }

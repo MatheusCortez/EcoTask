@@ -53,6 +53,10 @@ class ListFragment : Fragment(), TaskItemClickListener {
             mainViewModel.tarefaSelecionada = null
             findNavController().navigate(R.id.action_listFragment_to_incluirTarefaFragment)
         }
+
+        binding.buttonIdeas.setOnClickListener{
+            findNavController().navigate(R.id.action_listFragment_to_fragmentDicas)
+        }
         return binding.root
     }
 

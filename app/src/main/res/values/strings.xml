@@ -3,14 +3,16 @@
     <string name="nome_da_tarefa">Nome da Tarefa</string>
     <string name="data_para_a_conclusao">Data</string>
     <string name="hora">Hora</string>
-    <string name="responsavel">Responsavel</string>
-    <string name="descreva_a_tarefa">Descricao</string>
-    <string name="Campo_Obrigatorio">*Obrigatorio</string>
+    <string name="responsavel">Responsável</string>
+    <string name="descreva_a_tarefa">Descrição</string>
+    <string name="Campo_Obrigatorio">*Obrigatório</string>
     <string name="titleTelaAdicionar">Adicionar uma tarefa</string>
     <string name="titleTelaEditar">Editar tarefa</string>
     <string name="logo">logo</string>
     <string name="logoo">logo</string>
-    <string name="email">email</string>
+    <string name="email">E-mail</string>
     <string name="login">Login</string>
-    <string name="senha">senha</string>
+    <string name="senha">Senha</string>
+    <string name="dicas">Dicas</string>
+    <string name="reciclagem">Reciclagem</string>
 </resources>
