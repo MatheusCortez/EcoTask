@@ -42,25 +42,4 @@
 
 
 -----------------------------
-## 🚀 Como Executar
-
-Clone a aplicação
-```bash
-
-$ git clone git@github.com:MatheusCortez/Dogs.git
-```
-Instale as dependencias 
-```bash
-
-$ npm install
-```
-
-
-Use o seguinte comando para inicializar a aplicação
-```bash
-$ npm start 
-```
-### Por fim, a aplicação estará disponível em :  `http://localhost:3000`
-### Consta como usúario de teste Username "dog" e senha "dog"
-
 
