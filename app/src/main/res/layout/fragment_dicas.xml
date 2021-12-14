@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DicasFragment" >
+    tools:context=".FragmentDicas" >
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/materialToolbarDicas"
@@ -39,7 +39,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/dicas"
+        android:text="Dicas"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="22sp"
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toBottomOf="@+id/materialToolbarDicas" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
+        android:id="@+id/cardViewComp"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginTop="32dp"
@@ -81,11 +81,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:text="Quer saber mais sobre compostagem?"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/compostagem_card" />
+                app:layout_constraintTop_toBottomOf="@+id/compostagem_card" />
 
             <ImageView
                 android:id="@+id/viewMaca"
@@ -101,14 +101,14 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
+        android:id="@+id/cardViewReciclagem"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         app:cardBackgroundColor="#ECECEC"
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@+id/cardView">
+        app:layout_constraintTop_toBottomOf="@+id/cardViewComp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -120,7 +120,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/reciclagem"
+                android:text="Reciclagem"
                 android:textColor="#000000"
                 android:textSize="22sp"
                 android:textStyle="bold"
@@ -153,13 +153,14 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewEnergia"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         app:cardBackgroundColor="#ECECEC"
         app:layout_constraintEnd_toEndOf="@id/guideline_end"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+        app:layout_constraintTop_toBottomOf="@+id/cardViewReciclagem">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

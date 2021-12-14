@@ -34,5 +34,41 @@
         <action
             android:id="@+id/action_fragmentDicas_to_listFragment"
             app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_fragmentDicas_to_fragmentEnergia"
+            app:destination="@id/fragmentEnergia" />
+        <action
+            android:id="@+id/action_fragmentDicas_to_fragmentCompost"
+            app:destination="@id/fragmentCompost" />
+        <action
+            android:id="@+id/action_fragmentDicas_to_fragmentReciclagem"
+            app:destination="@id/fragmentReciclagem" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentReciclagem"
+        android:name="com.example.ecotask_.FragmentReciclagem"
+        android:label="fragment_reciclagem"
+        tools:layout="@layout/fragment_reciclagem" >
+        <action
+            android:id="@+id/action_fragmentReciclagem_to_fragmentDicas"
+            app:destination="@id/fragmentDicas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCompost"
+        android:name="com.example.ecotask_.FragmentCompost"
+        android:label="fragment_compost"
+        tools:layout="@layout/fragment_compost" >
+        <action
+            android:id="@+id/action_fragmentCompost_to_fragmentDicas"
+            app:destination="@id/fragmentDicas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentEnergia"
+        android:name="com.example.ecotask_.FragmentEnergia"
+        android:label="fragment_energia"
+        tools:layout="@layout/fragment_energia" >
+        <action
+            android:id="@+id/action_fragmentEnergia_to_fragmentDicas"
+            app:destination="@id/fragmentDicas" />
     </fragment>
 </navigation>

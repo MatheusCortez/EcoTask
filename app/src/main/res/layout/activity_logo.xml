@@ -8,14 +8,16 @@
     tools:context=".logo">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/viewEnergia"
         android:layout_width="314dp"
         android:layout_height="592dp"
         android:contentDescription="@string/logo"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo_app" />
+        app:srcCompat="@drawable/ecotask_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

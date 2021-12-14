@@ -18,9 +18,22 @@ class FragmentDicas : Fragment() {
     ): View? {
         binding = FragmentDicasBinding.inflate(inflater, container, false)
 
+        binding.cardViewComp.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentDicas_to_fragmentCompost)
+        }
+
+        binding.cardViewReciclagem.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentDicas_to_fragmentReciclagem)
+        }
+
+        binding.cardViewEnergia.setOnClickListener {
+            findNavController().navigate(R.id.action_fragmentDicas_to_fragmentEnergia)
+        }
+
         binding.materialToolbarDicas.setOnClickListener{
             findNavController().navigate(R.id.action_fragmentDicas_to_listFragment)
         }
+
         return binding.root
     }
 
