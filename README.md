@@ -20,6 +20,7 @@
 * [Gabriel Bizarria](https://github.com/Gabriel-Bizarria)
 * [James Santana](https://github.com/James-Santana-Dev)
 * [Matheus Cortez](https://github.com/MatheusCortez)
+* [Cristhian Ruescas](https://github.com/Cristhian-Ruescas)
 
 -----------------------------
 ## 📔 Temas Abordados no projeto:
